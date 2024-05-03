@@ -32,16 +32,16 @@ function translateChoice(choice) {
 
 function translateNumbers(number) {
   let finalNum = number.toString()
-  finalNum = finalNum.replace("0", "۰")
-  finalNum = finalNum.replace("1", "۱")
-  finalNum = finalNum.replace("2", "۲")
-  finalNum = finalNum.replace("3", "۳")
-  finalNum = finalNum.replace("4", "۴")
-  finalNum = finalNum.replace("5", "۵")
-  finalNum = finalNum.replace("6", "۶")
-  finalNum = finalNum.replace("7", "۷")
-  finalNum = finalNum.replace("8", "۸")
-  finalNum = finalNum.replace("9", "۹")
+  finalNum = finalNum.replaceAll("0", "۰")
+  finalNum = finalNum.replaceAll("1", "۱")
+  finalNum = finalNum.replaceAll("2", "۲")
+  finalNum = finalNum.replaceAll("3", "۳")
+  finalNum = finalNum.replaceAll("4", "۴")
+  finalNum = finalNum.replaceAll("5", "۵")
+  finalNum = finalNum.replaceAll("6", "۶")
+  finalNum = finalNum.replaceAll("7", "۷")
+  finalNum = finalNum.replaceAll("8", "۸")
+  finalNum = finalNum.replaceAll("9", "۹")
   return finalNum
 }
 
